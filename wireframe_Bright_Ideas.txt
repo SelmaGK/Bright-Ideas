@@ -1,0 +1,29 @@
+
+1. Login/Registration
+- Fields:
+  - Register: Name, Alias, Email, Password, Confirm Password
+  - Login: Email, Password
+- Validations:
+  - Ensure that password is at least 8 characters on the register form.
+  - Ensure that the Name and Alias  are  at least 2 characters.
+  - Ensure that the email is Unique.
+  - Ensure that the confirmed PW is the same as the password.
+
+2. Main Dashboard (Hi Username!)
+- Users can post ideas with a text input and a button labeled "Idea!".
+- Posts are displayed below, sorted by the number of more likes.
+- Users can "like" posts, with a displayed count of people who liked the post.
+- The user can only delete their own posts.
+
+3. Like Status
+- Clicking "LIKE" adds the user’s name to the list of those who liked the post.
+- Each like adds +1 to the like count displayed.
+- If a user likes the same post more than once, their name should only appear once in the list.
+
+4. User Profile
+- Shows basic user information:
+  - Name
+  - Alias
+  - Email
+  - Total number of posts
+  - Total number of likes received across all posts
